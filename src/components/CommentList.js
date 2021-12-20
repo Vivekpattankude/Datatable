@@ -21,7 +21,7 @@ export default function CommentList  () {
             .get("https://jsonplaceholder.typicode.com/comments")
             .then((response) => {
               
-              console.log(response.data);
+             // console.log(response.data);
               setData(response.data);
             
               setLoadingData(false);
